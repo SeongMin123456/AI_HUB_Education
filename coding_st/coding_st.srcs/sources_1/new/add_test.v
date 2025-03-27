@@ -27,11 +27,11 @@ module add_test(
     output c
     );
 
-wire [8:0] sum;
+//wire [8:0] sum;
+//assign sum = a + b;
+//assign c = sum[8];
+//assign y = sum[7:0];
 
-assign sum = a + b;
-
-assign c = sum[8];
-assign y = sum[7:0];
+assign {c, y} = a + b;
 
 endmodule

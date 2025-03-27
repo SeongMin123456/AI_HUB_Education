@@ -19,19 +19,18 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
 module PulseCnt(
     input rst,
     input clk,
     input pls,
-    output reg [6:0] cnto
+    output reg [7:0] cnto
     );
 
 reg pl0, pl1;
 
 // rising edge counter
-always @(negedge rst, posedge clk) begin
-    if(rst == 0) begin
+always @(posedge rst, posedge clk) begin
+    if(rst == 1) begin
         pl0 <= 0;
         pl1 <= 0;
     end else begin
