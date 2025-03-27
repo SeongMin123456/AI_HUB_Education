@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 27 12:05:47 2025
+# Process ID: 19032
+# Current directory: C:/Users/user/Desktop/Vivado_test/vivado/edge_det/edge_det.runs/synth_1
+# Command line: vivado.exe -log edge_pro.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source edge_pro.tcl
+# Log file: C:/Users/user/Desktop/Vivado_test/vivado/edge_det/edge_det.runs/synth_1/edge_pro.vds
+# Journal file: C:/Users/user/Desktop/Vivado_test/vivado/edge_det/edge_det.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source edge_pro.tcl -notrace

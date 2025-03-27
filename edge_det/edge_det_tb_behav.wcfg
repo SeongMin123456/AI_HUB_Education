@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="edge_det_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="edge_det_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="100001fs"></ZoomEndTime>
+      <Cursor1Time time="100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="104"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/edge_det_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edge_det_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edge_det_tb/DIN" type="logic">
+      <obj_property name="ElementShortName">DIN</obj_property>
+      <obj_property name="ObjectShortName">DIN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edge_det_tb/uut/d0" type="logic">
+      <obj_property name="ElementShortName">d0</obj_property>
+      <obj_property name="ObjectShortName">d0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edge_det_tb/uut/d1" type="logic">
+      <obj_property name="ElementShortName">d1</obj_property>
+      <obj_property name="ObjectShortName">d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edge_det_tb/redge" type="logic">
+      <obj_property name="ElementShortName">redge</obj_property>
+      <obj_property name="ObjectShortName">redge</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edge_det_tb/fedge" type="logic">
+      <obj_property name="ElementShortName">fedge</obj_property>
+      <obj_property name="ObjectShortName">fedge</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

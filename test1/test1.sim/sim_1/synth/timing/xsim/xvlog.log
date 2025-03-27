@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/user/Desktop/Vivado_test/test1/test1.sim/sim_1/synth/timing/xsim/and2_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and2_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module glbl
