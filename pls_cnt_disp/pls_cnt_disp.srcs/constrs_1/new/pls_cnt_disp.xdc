@@ -23,3 +23,4 @@ set_property PACKAGE_PIN G7 [get_ports {seg[3]}]
 set_property PACKAGE_PIN F7 [get_ports {seg[2]}]
 set_property PACKAGE_PIN F8 [get_ports {seg[1]}]
 set_property PACKAGE_PIN D7 [get_ports {seg[0]}]
+

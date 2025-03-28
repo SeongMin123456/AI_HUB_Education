@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Mar 28 16:14:13 2025
+# Process ID: 16948
+# Current directory: C:/Users/user/Desktop/Vivado_test/vivado/Stop_watch/Stop_watch.runs/impl_1
+# Command line: vivado.exe -log pls_cnt_disp.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pls_cnt_disp.tcl -notrace
+# Log file: C:/Users/user/Desktop/Vivado_test/vivado/Stop_watch/Stop_watch.runs/impl_1/pls_cnt_disp.vdi
+# Journal file: C:/Users/user/Desktop/Vivado_test/vivado/Stop_watch/Stop_watch.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source pls_cnt_disp.tcl -notrace

@@ -23,7 +23,8 @@ module PulseCnt(
     input rst,
     input clk,
     input pls,
-    output reg [7:0] cnto
+    output reg [7:0] cnto_usec,
+    output reg [7:0] cnto_sec
     );
 
 reg pl0, pl1;
@@ -33,12 +34,18 @@ always @(posedge rst, posedge clk) begin
     if(rst == 1) begin
         pl0 <= 0;
         pl1 <= 0;
+        cnto_usec <= 0;
+        cnto_sec <= 0;
     end else begin
         pl0 <= pls;
         pl1 <= pl0;
         if(pl0 & ~pl1) begin
-            if(cnto < 99)   cnto <= cnto + 1;
-            else            cnto <= 0;
+            if(cnto_usec < 99)   cnto_usec <= cnto_usec + 1;
+            else begin
+                cnto_usec <= 0;
+                if(cnto_sec < 59)   cnto_sec <= cnto_sec + 1;
+                else                cnto_sec <= 0;
+            end
         end
     end
 end
